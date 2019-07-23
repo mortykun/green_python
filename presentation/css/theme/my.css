@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Alef);
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #333333;
+  /*font-family: "Quicksand", sans-serif;*/
+  font-family: 'Alef', sans-serif;
+  /*line-height: 0.9em;*/
+  letter-spacing: -0.00em;
+  /*text-transform: uppercase;*/
+  text-transform: none;
+  /*text-shadow: none;*/
+}
+
+.reveal {
+  /*font-family: "Open Sans", sans-serif;*/
+  /*font-size: 36px;*/
+  /*font-weight: 200;*/
+  letter-spacing: -0.00em;
+  /*color: #333333; */
+}
+
+.reveal li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.slides code {
+  /*font-size: 1.2em;*/
+  line-height: 1.5;
+  max-height: none;
+}
+
+/*.slides pre code {*/
+  /*background: #F0F0F0;*/
+  /*color: black;*/
+/*}*/
+
+.slides table {
+  width: 100%;
+  font-size: 0.8em;
+  line-height: 0.8em;
+}
+
+.slides table tr td:first-child {
+  width: 300px;
+}
+
+.slides table tr td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.slides table tr:nth-child(2n) {
+  background-color: #e3e3e3;
+}
+
+.slides table tr:nth-child(2n+1) :not(th) {
+  background-color: #fff;
+}
+
+.slides table th {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.presentation-details {
+    position: fixed;
+    bottom: 10px;
+	left:  10px;
+    width: 100%;
+    /*text-align:center;*/
+    display: inline;
+	font: .8em sans-serif;
+	color: #444;
+	padding: 20px 0 20px 60px;
+}
+
+.reveal section img {
+  border: 0px solid #333333;
+}
+
+/*.pesentation-details {*/
+	/*position: absolute;*/
+	/*left: 10px;*/
+	/*bottom: 10px;*/
+	/*font: .4em sans-serif;*/
+	/*color: #444;*/
+	/*padding: 20px 0 20px 60px;*/
+
+	/*[>background: url(../assets/about/drublic.png) no-repeat 0 0;<]*/
+	/*[>background-size: 50px 50px;<]*/
+/*}*/

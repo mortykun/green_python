@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+[---]
+{% extends "templates/contents_base.html" %}
+
+{% block heading %}
+<div class="page-header">
+    <h1>קורס פייתון - שקפים</h1>
+</div>
+{% endblock %}
+
+{% block contents %}
+<div class="slidesWrapper">
+<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+    src="slidesIndex.html" allowfullscreen="true">
+</iframe>
+</div>
+{% endblock %}
+
