@@ -1,0 +1,34 @@
+============================================================
+Given a list slice it into a 3 equal chunks and rever each list
+DATA
+sampleList = [11, 45, 8, 23, 14, 12, 78, 45, 89]
+RESULT:
+Original list  [11, 45, 8, 23, 14, 12, 78, 45, 89]
+Chunk  1 [11, 45, 8]
+After reversing it  [8, 45, 11]
+Chunk  2 [23, 14, 12]
+After reversing it  [12, 14, 23]
+Chunk  3 [78, 45, 89]
+After reversing it  [89, 45, 78]
+============================================================
+Given a list iterate it and count the occurrence of each element and create a dictionary to show the count of each element
+DATA
+original_list =  [11, 45, 8, 11, 23, 45, 23, 45, 89]
+RESULT
+Printing count of each item   {11: 2, 45: 3, 8: 1, 23: 2, 89: 1}
+============================================================
+Iterate a given list and Check if a given element already exists in a dictionary as a key’s value if is - delete it from the list
+DATA:
+rollNumber = [47, 64, 69, 37, 76, 83, 95, 97]
+sampleDict ={'Jhon':47, 'Emma':69, 'Kelly':76, 'Jason':97}
+RESULT:
+[64, 37, 83, 95]
+==================
+Remove duplicate from a list and create a tuple and find the minimum and maximum number
+DATA
+sampleList = [87, 45, 41, 65, 94, 41, 99, 94]
+RESULT
+unique items [87, 45, 41, 65, 99]
+tuple (87, 45, 41, 65, 99)
+min: 41
+max: 99
